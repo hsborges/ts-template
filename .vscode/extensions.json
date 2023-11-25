@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "github.copilot",
+    "orta.vscode-jest",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "chakrounanas.turbo-console-log"
+  ]
+}
