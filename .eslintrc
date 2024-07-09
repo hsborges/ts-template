@@ -10,6 +10,7 @@
     "prettier"
   ],
   "rules": {
+    "valid-jsdoc": "off",
     "no-console": 2,
     "@typescript-eslint/no-explicit-any": 0
   }
