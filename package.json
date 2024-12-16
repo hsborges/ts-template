@@ -17,6 +17,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@tsconfig/node18": "^18.2.4",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
