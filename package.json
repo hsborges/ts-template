@@ -13,17 +13,19 @@
     "prepare": "husky || true",
     "build": "tsc",
     "dev": "tsx  -r \"dotenv-flow/config\" src/index.ts",
-    "start": "node -r \"dotenv-flow/config\" dist/index.js"
+    "start": "node -r \"dotenv-flow/config\" dist/index.js",
+    "test": "vitest run ./src",
+    "test:coverage": "vitest run ./src --coverage"
   },
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@tsconfig/node18": "^18.2.4",
-    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
+    "@vitest/coverage-v8": "^2.1.8",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv-flow": "^4.1.0",
@@ -31,12 +33,11 @@
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.7",
-    "jest": "^29.7.0",
     "prettier": "^3.4.2",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "ts-jest": "^29.2.5",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   },
   "config": {
     "commitizen": {
