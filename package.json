@@ -10,7 +10,7 @@
   },
   "scripts": {
     "lint": "eslint src --ext .ts",
-    "prepare": "husky install",
+    "prepare": "husky || true",
     "build": "tsc",
     "dev": "tsx  -r \"dotenv-flow/config\" src/index.ts",
     "start": "node -r \"dotenv-flow/config\" dist/index.js"
