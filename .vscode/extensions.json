@@ -5,7 +5,7 @@
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "github.copilot",
-    "orta.vscode-jest",
+    "vitest.explorer",
     "christian-kohler.npm-intellisense",
     "esbenp.prettier-vscode",
     "chakrounanas.turbo-console-log"
