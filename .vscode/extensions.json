@@ -1,13 +1,12 @@
 {
   "recommendations": [
+    "biomejs.biome",
+    "chakrounanas.turbo-console-log",
+    "christian-kohler.npm-intellisense",
+    "editorconfig.editorconfig",
+    "github.copilot",
     "mikestead.dotenv",
     "ms-azuretools.vscode-docker",
-    "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint",
-    "github.copilot",
-    "vitest.explorer",
-    "christian-kohler.npm-intellisense",
-    "esbenp.prettier-vscode",
-    "chakrounanas.turbo-console-log"
+    "vitest.explorer"
   ]
 }

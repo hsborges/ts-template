@@ -1,2 +1,2 @@
-// eslint-disable-next-line no-console
-console.log('Hello, world!');
+// biome-ignore lint/suspicious/noConsole: code with example purposes
+console.log('Hello, world!')
