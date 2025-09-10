@@ -1,0 +1,18 @@
+{
+  "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "tag": true,
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": true,
+    "push": true,
+    "pushRepo": "origin"
+  },
+  "github": false,
+  "npm": false,
+  "hooks": {
+    "before:init": ["npm run check"],
+    "after:bump": ["npm run build"],
+    "after:release": ["echo Successfully released ${name} v${version}"]
+  }
+}
