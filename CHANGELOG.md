@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.2](https://github.com/hsborges/ts-repo-template/compare/v1.0.1...v1.0.2) (2025-09-11)
+
+* força uso de ponto e virgula ao final ([117fdfe](https://github.com/hsborges/ts-repo-template/commit/117fdfea205a2787e4c19b302dd9b1fc6defabff))
+
 ## [1.0.1](https://github.com/hsborges/ts-repo-template/compare/v1.0.0...v1.0.1) (2025-09-11)
 
 * adiciona bumper para versão ([e33d9de](https://github.com/hsborges/ts-repo-template/commit/e33d9de6fc04bf97f049997b16190b7dd555e29a))
