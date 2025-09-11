@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1](https://github.com/hsborges/ts-repo-template/compare/v1.0.0...v1.0.1) (2025-09-11)
+
+* adiciona bumper para versão ([e33d9de](https://github.com/hsborges/ts-repo-template/commit/e33d9de6fc04bf97f049997b16190b7dd555e29a))
+* adiciona README (auto gerado por IA) ([ff8cdd6](https://github.com/hsborges/ts-repo-template/commit/ff8cdd699aea18a80b02d1556e225515d79a1a50))
+
 ## 1.0.0 (2025-09-11)
 
 * adiciona arquivos basicos ([d0ef6b8](https://github.com/hsborges/ts-repo-template/commit/d0ef6b8d481686ececbfaf7382ed13d1125aa995))
